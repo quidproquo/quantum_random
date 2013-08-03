@@ -19,6 +19,7 @@ Gem::Specification.new do |gem|
 
   # Dependencies:
   gem.add_dependency 'httparty'
+  gem.add_dependency 'hashie'
   
   # Development dependencies:
   gem.add_development_dependency 'debugger'

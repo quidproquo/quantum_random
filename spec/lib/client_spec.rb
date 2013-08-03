@@ -11,7 +11,7 @@ describe QuantumRandom::Client do
       let(:get) { klass.send(:get) }
       subject { get }
       it { should be_success }
-      # it { debugger; true }
+      it { debugger; true }
 
       context 'parsed_response' do
         let(:parsed_response) { get.parsed_response }
