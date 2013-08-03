@@ -25,7 +25,7 @@ module QuantumRandom
             q.question = 'X'
           end
 
-          question = "[#{q.question}] choices: #{choices}"
+          question = "[#{q.question}] choices: {choices}"
           puts question
           q.user_answer = gets.chomp.to_i
         }
