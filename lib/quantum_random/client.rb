@@ -8,6 +8,8 @@ module QuantumRandom
 
     class << self
 
+      protected
+
       def get(data_type = :uint8, array_length = 1, block_size = 6)
         options = {
           type: data_type,
