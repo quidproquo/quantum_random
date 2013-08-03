@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   # Dependencies:
-  gem.add_dependency 'faraday'
+  gem.add_dependency 'httparty'
   
   # Development dependencies:
   gem.add_development_dependency 'debugger'
